@@ -1,4 +1,4 @@
-from .metrics import calculate_portfolio_value
+from .core.metrics import calculate_portfolio_value
 
 def print_report(portfolio: list[dict]) -> None:
     total = calculate_portfolio_value(portfolio)
